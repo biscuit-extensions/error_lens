@@ -1,7 +1,19 @@
 [extension]
 id = "error_lens"
 name = "Error Lens"
-version = "0.1.0"
-description = "Inline error and warning diagnostic messages directly on editor code lines"
-author = "biscuit-extensions"
+version = "0.2.0"
+description = "Real-time diagnostic message line decorator, warning display, and problem navigation"
+author = "tomlin7"
 icon = "icon.png"
+
+[dependencies]
+python = []
+tools = []
+
+[contributes]
+commands = [
+    { id = "error_lens.toggle", title = "Error Lens: Toggle Inline Diagnostics" },
+    { id = "error_lens.next_error", title = "Error Lens: Next Diagnostic" },
+    { id = "error_lens.prev_error", title = "Error Lens: Previous Diagnostic" },
+    { id = "error_lens.clear", title = "Error Lens: Clear All Diagnostics" }
+]
