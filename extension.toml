@@ -1,0 +1,7 @@
+[extension]
+id = "error_lens"
+name = "Error Lens"
+version = "0.1.0"
+description = "Inline error and warning diagnostic messages directly on editor code lines"
+author = "biscuit-extensions"
+icon = "icon.png"
